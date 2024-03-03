@@ -10,7 +10,7 @@ Product.belongsTo(Category, {
     model: Product,
     unique: true
   }, 
-  as: 'product_categories'
+  as: 'product_category'
 })
 
 // Categories have many Products
